@@ -13,7 +13,6 @@ body{
 }
 
 h2{
-    font-size: large;
     font-weight: 700;
     text-align: center;
     padding-top: 1rem;
@@ -25,13 +24,14 @@ h2{
 
 .separator-line{
     border:  1px solid #17A3B8;
+    opacity: 100;
 }
 
 .presentation-section{
     background-color: black;
 }
 
-.card-header, .card-bg{
+.card-header, .card-bg, .footer{
     background-color: #17A3B8;
 }
 
@@ -52,3 +52,10 @@ h2{
     border-radius: 0.25rem;
 }
 
+.footer-text {
+    align-items: center;
+}
+
+.footer-icon {
+    color: white;
+}
