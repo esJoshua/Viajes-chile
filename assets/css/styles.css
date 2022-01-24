@@ -9,13 +9,18 @@ body{
     background-color: black;
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 h2{
-    font-size: medium;
+    font-size: large;
+    font-weight: 700;
     text-align: center;
     padding-top: 1rem;
        
+}
+.container {
+    margin-top: 7rem;
 }
 
 .separator-line{
@@ -26,10 +31,24 @@ h2{
     background-color: black;
 }
 
-.card-header{
+.card-header, .card-bg{
     background-color: #17A3B8;
 }
 
-.card-text {
+.card-text .card-title{
     font-size: smaller;
 }
+
+.card-container + .card-container {
+    margin-top: 1rem;
+}
+
+.card-container {
+    margin-top: 1rem;
+}
+
+.card-bg{
+    border: 1px solid;
+    border-radius: 0.25rem;
+}
+
