@@ -11,4 +11,25 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+h2{
+    font-size: medium;
+    text-align: center;
+    padding-top: 1rem;
+       
+}
 
+.separator-line{
+    border:  1px solid #17A3B8;
+}
+
+.presentation-section{
+    background-color: black;
+}
+
+.card-header{
+    background-color: #17A3B8;
+}
+
+.card-text {
+    font-size: smaller;
+}
